@@ -8,11 +8,12 @@
 <body>
 
     <h1>Inserisci un paragrafo e una parola da censurare</h1>
+    
     <form action="results.php" method="POST">
         <label for="paragrafo">Paragrafo:</label>
         <textarea id="paragrafo" name="paragrafo" required></textarea>
-        <label for="parola">Parola da censurare:</label><br>
-        <input type="text" id="parola" name="parola" required><br><br>
+        <label for="parola">Parola da censurare:</label>
+        <input type="text" id="parola" name="parola" required>
         <input type="submit" value="Invia">
     </form>
 </body>
